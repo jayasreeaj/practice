@@ -1,0 +1,51 @@
+initialization
+
+git init
+.git folder
+
+
+git diff  (details of a file like hash values content etc)
+
+
+
+
+BRANCH
+creation of new branch
+git checkout -b branch1
+vi new.txt
+git status
+git add *
+git commit -a -m "nth commit"
+git checkout master    (switch branch to local)
+ 
+
+git merge branch1
+ll
+git status
+git push -u origin master 
+
+
+
+
+
+
+...........................................
+
+
+
+
+mkdir name
+cd cd name
+pwd
+mkdir  next
+cd next
+pwd
+git init
+pit pull url
+change file
+git status
+git add .
+git status
+git remote add origin url
+git remote -v
+git push -u origin master
