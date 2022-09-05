@@ -1,0 +1,53 @@
+mount efs on bastion host
+-------------------------
+
+
+add nfs security grp in bastion host
+enable dns in vpc 
+
+
+
+sudo yum install amazon-efs-utils
+sudo yum install nfs/utils
+
+
+
+sudo su
+mkdir /efs
+copy from efs--attach--mount via--copy command and paste in terminal
+df -h (ip address shwn last): now it is temporarily mounted
+
+nano /etc/fstab
+
+cmd from slack
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+..................
+
+
+ssh -i demo.pem ec2-user@10.0.0.136
+ sudo yum install httpd -y
+sudo su
+echo "hgghfh" > /var/www/html/index.html
+systemctl start httpd
+  "       enable  "
+
+exit
+exit
+curl ip
